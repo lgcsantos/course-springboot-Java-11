@@ -31,6 +31,8 @@ public class Order implements Serializable {
 	private Users client;
 
 	public Order() {
+		
+		
 	}
 
 	public Order(Long id, Instant moment, Users client) {
